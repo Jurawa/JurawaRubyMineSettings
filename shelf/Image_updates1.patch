@@ -1,0 +1,49 @@
+Index: app/views/admin/products/_form.html.haml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/views/admin/products/_form.html.haml	(revision 8abb230d6938154307fd3730df67a3492a42c932)
++++ app/views/admin/products/_form.html.haml	(revision )
+@@ -31,7 +31,7 @@
+     = f.input :stated_band_size, :as => :select, :collection => Truefit::BAND_SIZE << [40, 40]
+     = f.input :stated_cup_size, :as => :select, :collection => Truefit::CUP_SIZE
+     = f.input :size_1
+-    = f.input :product_type, :label => 'Type'
++    = f.input :product_type
+     = f.input :color_1
+     = f.input :color_2
+     = f.input :pattern
+Index: app/models/product_image.rb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/models/product_image.rb	(revision 8abb230d6938154307fd3730df67a3492a42c932)
++++ app/models/product_image.rb	(revision )
+@@ -1,7 +1,7 @@
+ class ProductImage < ActiveRecord::Base
+   belongs_to :product
+ 
+-  has_attached_file :picture, :styles => { :medium => "310x325#", :thumb => "110x125#" },
++  has_attached_file :picture, :styles => { :large => "400x420#", :medium => "310x325#", :thumb => "110x125#" },
+                               :path => ":class/:attachment/:id/:style/:basename.:extension",
+                               :url => "/:class/:attachment/:id/:style/:basename.:extension",
+                               :default_url => "/:class/default_:style.png",
+\ No newline at end of file
+Index: app/helpers/application_helper.rb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/helpers/application_helper.rb	(revision 8abb230d6938154307fd3730df67a3492a42c932)
++++ app/helpers/application_helper.rb	(revision )
+@@ -13,7 +13,7 @@
+     elsif product.product_images.empty?
+       product_image = '/assets/default.png'
+     else
+-      product_image = product.product_images.first.picture.url(:medium)
++      product_image = product.product_images.first.picture.url(:large).empty? ? product.product_images.first.picture.url(:large) : product.product_images.first.picture.url(:medium)
+     end
+ 
+     URI.join(base_url, product_image).to_s

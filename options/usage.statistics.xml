@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="UsagesStatistic" time="1350593094660" allowed="true" show-notification="false" period="weekly">
+    <group id="JavaScript versions" priority="0.0" data="DEFAULT=2" />
+    <group id="file-type" priority="0.0" data="JavaScript=2,YAML=2,XML=2,CoffeeScript=2,Cucumber=2,UNKNOWN=2,SCSS=2,HAML=2,SQL=2,CSS=2,Images=2,PLAIN_TEXT=2,DTD=2,RHTML=2,HTML=2,Ruby=2,DATASOURCE_STORAGE=2" />
+    <group id="frameworks" priority="0.0" data="RailsFacetType=2" />
+    <group id="javaScript Scope Usages" priority="0.0" data="Project=24" />
+    <group id="jdbc-datasource" priority="0.0" data="/=3,MySQL/5.5.27=5" />
+    <group id="jdbc-driver" priority="0.0" data="com.mysql.jdbc.Driver=8" />
+    <group id="module type" priority="0.0" data="RUBY_MODULE=2" />
+    <group id="non-bundled-plugins" priority="0.0" data="com.intellij=1" />
+    <group id="productivity" priority="0.0" data="editing.select.word=415,navigation.popup.action=10,editing.completion.finishByDotEtc=4,navigation.goto.declaration=150,refactoring.rename=9,find.recent.search=3,editing.completion.replace=9,editing.completion.finishByControlEnter=2,ui.tree.speedsearch=6,codeassists.comment.line=31,editing.completion.camelHumps=3,editing.completion.basic=76,navigation.popup.file=89,navigation.popup.camelprefix=9" />
+    <group id="ruby-custom-scripts" priority="0.0" data="loaded scripts=2" />
+    <group id="ruby-gems-names" priority="0.0" data="airbrake=2,hpricot=2,sprockets=2,minitest=2,rack-test=2,inherited_resources=2,libwebsocket=2,addressable=2,selenium-webdriver=2,activeadmin=2,polyglot=2,authlogic=2,launchy=2,coffee-script-source=2,sass=2,newrelic_rpm=2,sass-rails=2,rdoc=2,guard-spork=2,erubis=2,rspec-expectations=2,mime-types=2,cocaine=2,fastercsv=2,capistrano-ext=2,hashie=2,responders=2,tzinfo=2,httpauth=2,multipart-post=2,bcrypt-ruby=2,capistrano=2,meta_search=2,xml-simple=0,activemodel=2,sys-proctable=2,bourbon=2,Ascii85=2,xpath=2,mysql2=2,prawn=2,debugger=2,money=2,cucumber-rails=2,rspec-mocks=2,rack-ssl=2,net-ssh=2,bundler=2,gherkin=2,activerecord=2,nokogiri=2,net-sftp=2,progressbar=2,json=2,custom_error_message=2,orm_adapter=2,coffee-rails=2,awesome_print=2,libv8=2,haml-rails=2,columnize=2,oauth2=2,ttfunk=2,guard=2,railties=2,net-ssh-gateway=2,letter_opener=2,activeresource=2,actionpack=2,debugger-linecache=2,jquery-rails=2,rack=2,rspec-rails=2,stripe=2,rspec-core=2,rubyzip=2,builder=2,faraday=2,delayed_job=2,omniauth-google-oauth2=2,mail=2,kaminari=2,rb-fsevent=2,haml=2,therubyracer=2,paperclip=2,formtastic=2,cucumber=2,uglifier=2,debugger-ruby_core_source=2,colored=2,arel=2,minitest-rails=2,omniauth-oauth2=2,actionmailer=2,childprocess=2,spork=2,rails_best_practices=2,omniauth=2,rest-client=2,warden=2,highline=2,net-scp=2,pdf-reader=2,ffi=2,tilt=2,factory_girl_rails=2,i18n=2,rspec=2,shoulda-matchers=2,fakefs=2,execjs=2,database_cleaner=2,sexp_processor=2,aws-s3=0,daemons=2,rack-cache=2,diff-lcs=2,coffee-script=2,hike=2,devise=2,rake=2,thor=2,ruby-rc4=2,active_utils=2,has_scope=2,rack-mount=2,polyamorous=2,listen=2,activesupport=2,rails=2,capybara=2,factory_girl=2,multi_json=2,minitest-spec-rails=2,omniauth-facebook=2,treetop=2,thin=2,arbre=2,girl_friday=2,hashery=2,createsend=2,aws-sdk=2,httparty=2,uuidtools=2,rails-dev-tweaks=2,multi_xml=2,eventmachine=2,connection_pool=2,campaign_monitor_subscriber=2,jruby-pageant=2,code_analyzer=2,jwt=2,delayed_job_active_record=2,rspec-instafail=2,growl=2" />
+    <group id="ruby-project-type" priority="0.0" data="rails 3.1=2" />
+    <group id="ruby-sdk-version" priority="0.0" data="ruby-1.9.3-p194=2" />
+    <group id="run-configuration-type" priority="0.0" data="RailsRunConfigurationType=2,RakeRunConfigurationType=2" />
+    <group id="vcs" priority="0.0" data="Git=2" />
+  </component>
+</application>
+

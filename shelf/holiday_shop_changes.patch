@@ -1,0 +1,291 @@
+Index: app/assets/stylesheets/filtered_home_page.css.scss
+===================================================================
+--- app/assets/stylesheets/filtered_home_page.css.scss	(date 1350538635000)
++++ app/assets/stylesheets/filtered_home_page.css.scss	(date 1350538635000)
+@@ -1,116 +0,0 @@
+-@import "mixins.css.scss";
+-
+-body {
+-  width: 1000px;
+-  padding: 0 20px;
+-  margin: auto;
+-
+-  .header {
+-    height: 160px;
+-
+-    .left_header, .right_header {
+-      border-bottom: $thin_border;
+-      height: 87px;
+-      width: 375px;
+-      position: relative;
+-
+-      .menu_items {
+-        position: absolute;
+-        bottom: 0;
+-        height: 15px;
+-        width: 100%;
+-
+-        font-family: $proxima_nova_font;
+-        font-weight: 700;
+-        font-size: 10px;
+-        text-transform: uppercase;
+-        letter-spacing: 1px;
+-        color: #333333;
+-
+-        a {
+-          color: #333333;
+-          text-decoration: none;
+-
+-          &:hover { text-decoration: underline; }
+-
+-          &.active { color: #9BBABD; }
+-        }
+-      }
+-
+-    }
+-
+-    .left_header {
+-      float: left;
+-      margin-left: 15px;
+-    }
+-
+-    .right_header {
+-      float: right;
+-      margin-right: 15px;
+-
+-      .menu_items { text-align: right; }
+-    }
+-
+-    .logo_header {
+-      padding-top: 64px;
+-      text-align: center;
+-    }
+-
+-  }
+-
+-  .footer {
+-    text-align: right;
+-    padding: 20px 0;
+-    border-top: 2px solid #777;
+-
+-    font-family: $proxima_nova_font;
+-    color: #555;
+-    font-size: 10px;
+-    text-transform: uppercase;
+-    font-weight: 600;
+-    letter-spacing: 0.2em;
+-
+-    .leftmost { float: left; }
+-
+-    span, a {
+-      font-family: $proxima_nova_font;
+-      color: #555;
+-      font-size: 10px;
+-      text-transform: uppercase;
+-      font-weight: 600;
+-      letter-spacing: 0.2em;
+-    }
+-
+-    a {
+-      text-decoration: none;
+-
+-      &:hover { text-decoration: underline; }
+-    }
+-  }
+-
+-  .style_shop_heading {
+-    height: 135px;
+-    margin-top: 25px;
+-    position: relative;
+-
+-    h2 {
+-      font-family: $caslon_pro_font;
+-      font-size: 39px;
+-      font-weight: 100;
+-      line-height: 60px;
+-      text-align: center;
+-      margin: 0px;
+-
+-    }
+-
+-    p {
+-      font-family: $caslon_pro_font;
+-      font-size: 39px;
+-      font-weight: 100;
+-      font-style: italic;
+-      text-align: center;
+-      margin: 0px;
+-    }
+-  }
+-}
+-
+Index: app/views/layouts/holiday.html.haml
+===================================================================
+--- app/views/layouts/holiday.html.haml	(date 1350538635000)
++++ app/views/layouts/holiday.html.haml	(date 1350538635000)
+@@ -1,61 +0,0 @@
+-!!!
+-%html
+-  %head
+-    %title= (yield(:title) + " - " unless yield(:title).blank?).to_s + APP_CONFIG['site_name']
+-    = tag :meta, :name => 'viewport', :content => "width = 1040"
+-    = tag :meta, :name => 'title', :content => (yield(:title) + " - " unless yield(:title).blank?).to_s + APP_CONFIG['site_name']
+-    = tag :meta, :name => 'description', :content => (yield(:page_meta_desc) + " - " unless yield(:page_meta_desc).blank?).to_s + APP_CONFIG['meta_description']
+-    = stylesheet_link_tag 'application'
+-    %link{ :href => "/favicon.ico", :rel => "#{APP_CONFIG['site_name']}" }
+-    = javascript_include_tag 'jquery.min.js'
+-    = javascript_include_tag 'application'
+-    - if ios_user_agent? # Load js for iOS
+-      = javascript_include_tag 'mobilequiz.js'
+-    - else # Load js and css for desktop
+-      = javascript_include_tag 'quiz.js'
+-      = stylesheet_link_tag 'hover.css'
+-    = csrf_meta_tag
+-    = tag :meta, :name => "stripe-key", :content => STRIPE_PUBLIC_KEY
+-  %body.launch_design
+-    .header
+-      = render :partial => '/shared/headermenu'
+-      .logo_header
+-        = link_to image_tag('trueandco_logo.png'), root_path
+-    #main_wrapper.content
+-      = yield
+-    .footer
+-      %span.leftmost
+-        No Fitting Rooms. No Measuring Tape.
+-      %span
+-        &copy;
+-        TrueAndCo.com
+-      &bull;
+-      = link_to 'About Us', about_us_path
+-      &bull;
+-      = link_to 'Join Us', join_us_path
+-      &bull;
+-      = link_to 'Privacy Policy', privacy_policy_path
+-      &bull;
+-      = link_to 'FAQ', faq_path
+-      &bull;
+-      = link_to 'Terms & Conditions', terms_and_conditions_path
+-      &bull;
+-      = link_to 'Contact', contacts_path
+-    = render partial: '/sessions/session_popup'
+-    #dialog-box
+-
+-    = javascript_include_tag 'https://use.typekit.com/ppk4ead.js'
+-    = javascript_include_tag 'https://js.stripe.com/v1/'
+-
+-    = render :partial => '/shared/google_analytics'
+-    = render :partial => '/shared/google_adwords'
+-    = render :partial => '/shared/pinterest'
+-    = render :partial => '/shared/mix_panel'
+-
+-    -# = if Rails.env.development?
+-    -#   = link_to 'Preview Emails', letter_opener_letters_path, :target => "_blank"
+-
+-    :javascript
+-      window.onload = function(){
+-        try{Typekit.load();}catch(e){}
+-      }
+Index: app/controllers/customers_controller.rb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/controllers/customers_controller.rb	(date 1350538635000)
++++ app/controllers/customers_controller.rb	(revision )
+@@ -195,9 +195,8 @@
+     render layout: 'launch_home'
+   end
+ 
+-  def filtered_home_page
++  def holiday_shop
+     @visible_tags = Tag.order("tags.order").where(visible: true)
+-    render layout: 'filtered_home_page'
+   end
+ 
+   def create_launch
+Index: app/views/layouts/filtered_home_page.html.haml
+===================================================================
+--- app/views/layouts/filtered_home_page.html.haml	(date 1350538635000)
++++ app/views/layouts/filtered_home_page.html.haml	(date 1350538635000)
+@@ -1,44 +0,0 @@
+-!!!
+-%html
+-  %head
+-    %title= (yield(:title) + " - " unless yield(:title).blank?).to_s + APP_CONFIG['site_name']
+-    = tag :meta, :name => 'viewport', :content => "width = 1040"
+-    = tag :meta, :name => 'title', :content => (yield(:title) + " - " unless yield(:title).blank?).to_s + APP_CONFIG['site_name']
+-    = tag :meta, :name => 'description', :content => (yield(:page_meta_desc) + " - " unless yield(:page_meta_desc).blank?).to_s + APP_CONFIG['meta_description']
+-    = stylesheet_link_tag 'filtered_home_page'
+-    %link{ :href => "/favicon.ico", :rel => "#{APP_CONFIG['site_name']}" }
+-    = csrf_meta_tag
+-  %body
+-    .header
+-      .left_header
+-        .menu_items
+-          = link_to 'Login', '#'
+-          &bull;
+-          = link_to 'Take The Quiz', '#'
+-      .right_header
+-        .menu_items
+-          = link_to 'Join Our Email List', '#'
+-          &bull;
+-          = link_to 'Cart', '#'
+-      .logo_header
+-        = link_to image_tag('trueandco_logo.png'), root_path
+-    .content
+-      = yield
+-    .footer
+-      %span.leftmost
+-        No Fitting Rooms. No Measuring Tape.
+-      %span
+-        &copy;
+-        TrueAndCo.com
+-      &bull;
+-      = link_to 'About Us', about_us_path
+-      &bull;
+-      = link_to 'Join Us', join_us_path
+-      &bull;
+-      = link_to 'Privacy Policy', privacy_policy_path
+-      &bull;
+-      = link_to 'FAQ', faq_path
+-      &bull;
+-      = link_to 'Terms & Conditions', terms_and_conditions_path
+-      &bull;
+-      = link_to 'Contact', contacts_path
+\ No newline at end of file
+Index: config/routes.rb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- config/routes.rb	(date 1350538635000)
++++ config/routes.rb	(revision )
+@@ -92,7 +92,7 @@
+ 
+   # root :to => 'sessions#index'
+   # root :to => 'customers#new_launch'
+-  root :to => 'customers#filtered_home_page'
++  root :to => 'customers#holiday_shop'
+ 
+ 
+   # New Sessions
+Index: app/views/customers/filtered_home_page.html.haml
+===================================================================
+--- app/views/customers/filtered_home_page.html.haml	(date 1350538635000)
++++ app/views/customers/holiday_shop.html.haml	(revision )
+@@ -1,11 +1,10 @@
+-.style_shop_heading
+-  %h2 From everyday to holiday.
+-  %p 'Tis the season for personal fit.
++%h2 From everyday to holiday.
++%p 'Tis the season for personal fit.
+ 
+ .styles
+   - @visible_tags.each do |visible_tags|
+     .tag_image
+       =link_to collections_shop_index_path(filter: visible_tags.name) do
+-        =image_tag("homepage/#{visible_tags.name}.png")
++        =image_tag("holiday_collections/#{visible_tags.name}.png")
+ 
+ = link_to 'FIND OUT NOW', quiz_index_path, class: 'submit_link'
+\ No newline at end of file

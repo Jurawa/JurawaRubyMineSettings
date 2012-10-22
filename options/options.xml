@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="DimensionService">
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.22.1280.774" x="361" y="216" />
+    <location key="#Notifications.0.22.1280.774" x="402" y="151" />
+    <location key="VCS.ChangelistChooser.0.22.1280.774" x="463" y="252" />
+    <location key="RollbackChangesDialog.0.22.1920.1054" x="625" y="294" />
+    <location key="OptionsEditor" x="28" y="22" />
+    <location key="git4idea.rebase.GitRebaseEditor.0.22.1280.774" x="520" y="22" />
+    <location key="findTextDialog.0.22.1280.774" x="710" y="171" />
+    <location key="git4idea.merge.GitPullDialog.0.22.1280.774" x="298" y="206" />
+    <location key="OptionsEditor.0.22.1920.1054" x="-1224" y="0" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.22.1280.774" x="390" y="307" />
+    <location key="OptionsEditor.0.22.1280.774" x="33" y="22" />
+    <location key="VCS.ChangeListViewerDialog.0.22.1280.774" x="155" y="96" />
+    <location key="#mailing_list.0.22.1280.774" x="285" y="56" />
+    <location key="git4idea.push.GitPushDialog.0.22.1280.774" x="322" y="211" />
+    <location key="com.intellij.history.integration.ui.views.FileHistoryDialog" x="107" y="151" />
+    <location key="RollbackChangesDialog.0.22.1280.774" x="320" y="154" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.22.1280.774" x="228" y="71" />
+    <location key="DiffWindow.0.22.1920.1054" x="88" y="275" />
+    <location key="git4idea.branch.GitBranchIsNotFullyMergedDialog.0.22.1920.1054" x="512" y="265" />
+    <location key="git4idea.ui.branch.GitCompareBranchesDialog.0.22.1280.774" x="0" y="22" />
+    <location key="git4idea.branch.GitBranchIsNotFullyMergedDialog.0.22.1280.774" x="198" y="133" />
+    <location key="git4idea.ui.GitUnstashDialog.0.22.1280.774" x="352" y="245" />
+    <location key="DiffWindow.0.22.1280.774" x="0" y="22" />
+    <location key="git4idea.history.wholeTree.ContainedInBranchesConfigDialog.0.22.1280.774" x="400" y="241" />
+    <location key="GitCloneDialog" x="350" y="302" />
+    <location key="git4idea.ui.GitStashDialog.0.22.1280.774" x="429" y="317" />
+    <location key="DiffWindow" x="99" y="122" />
+    <location key="vcs.ApplyPatchDifferentiatedDialog.0.22.1280.774" x="352" y="34" />
+    <location key="com.intellij.javaee.module.view.dataSource.DataSourcePropertiesDialog.0.22.1280.774" x="378" y="35" />
+    <location key="git4idea.rebase.GitRebaseDialog.0.22.1280.774" x="374" y="250" />
+    <location key="git4idea.branch.GitSmartOperationDialog.0.22.1920.1054" x="692" y="276" />
+    <location key="CommitChangelistDialog.0.22.1280.774" x="183" y="22" />
+    <location key="ProcessPopupWindow" x="891" y="502" />
+    <location key="com.intellij.ide.passwordSafe.impl.providers.masterKey.ResetPasswordDialog.0.22.1280.774" x="464" y="330" />
+    <location key="git4idea.branch.GitSmartOperationDialog.0.22.1280.774" x="372" y="136" />
+    <location key="Git.Log.Tree.Goto.0.22.1280.774" x="476" y="636" />
+    <size key="DiffWindow.0.22.1920.1054" width="1720" height="854" />
+    <size key="VCS.ChangelistChooser.0.22.1280.774" width="546" height="331" />
+    <size key="GridCell.Tab.0.center.0.22.1280.774" width="600" height="200" />
+    <size key="GridCell.Tab.0.left.0.22.1280.774" width="600" height="200" />
+    <size key="DiffWindow.0.22.1280.774" width="1280" height="774" />
+    <size key="DiffWindow" width="1080" height="574" />
+    <size key="OptionsEditor.0.22.1920.1054" width="1224" height="800" />
+    <size key="CommitChangelistDialog.0.22.1280.774" width="640" height="774" />
+    <size key="ProcessPopupWindow" width="384" height="258" />
+    <size key="GridCell.Tab.0.bottom.0.22.1280.774" width="600" height="200" />
+    <size key="GridCell.Tab.0.right.0.22.1280.774" width="600" height="200" />
+    <size key="Git.Log.Tree.Goto.0.22.1280.774" width="374" height="63" />
+    <size key="com.intellij.history.integration.ui.views.FileHistoryDialog" width="1080" height="574" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog" state="0" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.0" state="300" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.1" state="500" />
+    <extendedState key="DiffWindow" state="0" />
+  </component>
+  <component name="LafManager">
+    <laf class-name="com.apple.laf.AquaLookAndFeel" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_" value="0.80000013" />
+    <property name="Non-Project Files" value="Yellow" />
+    <property name="installation.uid" value="341e175e-e270-456f-a718-3637f335d42d" />
+    <property name="FileTemplates.CurrentTab" value="Templates" />
+    <property name="file.colors.enable.tests" value="Green" />
+    <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="file.colors.enable.non.project" value="Yellow" />
+    <property name="RubyMine.full.reindex.required" value="1" />
+    <property name="RunConfigurable.dividerProportion" value="0.3" />
+    <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="KEYMAP" value="navigate&#10;select&#10;copy&#10;line&#10;find" />
+    <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
+    <property name="Ruby.initialConfigurationShown" value="true" />
+    <property name="Tests" value="Green" />
+    <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
+    <property name="FileTemplates.SelectedTemplate" value="Html" />
+    <property name="ColorChooser.RecentColors" value="26-26-26-255" />
+  </component>
+</application>
+

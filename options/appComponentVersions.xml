@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<versions>
+  <component name="BaseRefactoringSettings" version="1350862864051" />
+  <component name="CodeInsightSettings" version="1350923956105" />
+  <component name="CodeStyleSchemes" version="1350923956137" />
+  <component name="DaemonCodeAnalyzerSettings" version="1350923956137" />
+  <component name="DimensionService" version="1350923956144" />
+  <component name="EditorColorsManagerImpl" version="1350924954481" />
+  <component name="EditorSettings" version="1350924885760" />
+  <component name="Encoding" version="1350923956145" />
+  <component name="FeatureUsageStatistics" version="1350924637451" />
+  <component name="FileBasedIndex" version="1350923956145" />
+  <component name="FileTypeManager" version="1350923956160" />
+  <component name="FindSettings" version="1350862490678" />
+  <component name="GemManagerSettings" version="1350923956335" />
+  <component name="GeneralSettings" version="1350923956335" />
+  <component name="Git.Application.Settings" version="1350923956335" />
+  <component name="GithubSettings" version="1350924169913" />
+  <component name="HttpConfigurable" version="1350923956336" />
+  <component name="Images.OptionsManager" version="1350859310481" />
+  <component name="KeymapManager" version="1350923956336" />
+  <component name="LafManager" version="1350923956337" />
+  <component name="NotificationConfiguration" version="1350924169914" />
+  <component name="PasswordDatabase" version="1350924169915" />
+  <component name="PluginManagerConfigurable" version="1350924169915" />
+  <component name="ProjectJdkTable" version="1350923956345" />
+  <component name="ProjectManager" version="1350924169918" />
+  <component name="PropertiesComponent" version="1350924954505" />
+  <component name="RailsDataSourcesUpdater" version="1350923956346" />
+  <component name="RecentDirectoryProjectsManager" version="1350923956346" />
+  <component name="Registry" version="1350923956346" />
+  <component name="RemoteGemsState" version="1350923956346" />
+  <component name="RubyStubsGeneratedCache" version="1350923956351" />
+  <component name="RunnerLayoutSettings" version="1350852403066" />
+  <component name="SSHConnectionSettings" version="1350403760075" />
+  <component name="StatisticsApplicationUsages" version="1350923956354" />
+  <component name="TemplateSettings" version="1350850921913" />
+  <component name="TodoConfiguration" version="1350923956355" />
+  <component name="UISettings" version="1350923956355" />
+  <component name="UpdatesConfigurable" version="1350923956356" />
+  <component name="UsagesStatistic" version="1350923956357" />
+  <component name="WebBrowsersConfiguration" version="1350923956357" />
+  <component name="WindowManager" version="1350923956407" />
+  <component name="XDebuggerSettings" version="1350924169935" />
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl" version="1350923956417" />
+  <component name="com.intellij.javaee.ExternalResourceManagerImpl" version="1350923956417" />
+  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" version="1350923956417" />
+  <component name="libraryTable" version="1350923956991" />
+</versions>
+

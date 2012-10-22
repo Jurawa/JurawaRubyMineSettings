@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="vcs">
+      <project id="TrueLocal" values="Git" />
+      <project id="truelocal2" values="Git" />
+    </group>
+    <group name="frameworks">
+      <project id="TrueLocal" values="RailsFacetType" />
+      <project id="truelocal2" values="RailsFacetType" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="TrueLocal" values="/,/,/,MySQL/5.5.27" />
+      <project id="truelocal2" values="MySQL/5.5.27,MySQL/5.5.27,MySQL/5.5.27,MySQL/5.5.27" />
+    </group>
+    <group name="ruby-project-type">
+      <project id="TrueLocal" values="rails 3.1" />
+      <project id="truelocal2" values="rails 3.1" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="TrueLocal" values="RailsRunConfigurationType,RakeRunConfigurationType" />
+      <project id="truelocal2" values="RailsRunConfigurationType,RakeRunConfigurationType" />
+    </group>
+    <group name="module type">
+      <project id="TrueLocal" values="RUBY_MODULE" />
+      <project id="truelocal2" values="RUBY_MODULE" />
+    </group>
+    <group name="file-type">
+      <project id="TrueLocal" values="CoffeeScript,HAML,YAML,DTD,SQL,PLAIN_TEXT,DATASOURCE_STORAGE,Ruby,HTML,Cucumber,XML,Images,SCSS,CSS,RHTML,UNKNOWN,JavaScript" />
+      <project id="truelocal2" values="SQL,JavaScript,Ruby,HTML,UNKNOWN,SCSS,Images,PLAIN_TEXT,HAML,YAML,DTD,CSS,RHTML,CoffeeScript,Cucumber,XML" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="TrueLocal" values="com.mysql.jdbc.Driver,com.mysql.jdbc.Driver,com.mysql.jdbc.Driver,com.mysql.jdbc.Driver" />
+      <project id="truelocal2" values="com.mysql.jdbc.Driver,com.mysql.jdbc.Driver,com.mysql.jdbc.Driver,com.mysql.jdbc.Driver" />
+    </group>
+    <group name="ruby-gems-names">
+      <project id="TrueLocal" values="ttfunk,multi_json,fastercsv,progressbar,erubis,capistrano,colored,thin,authlogic,tzinfo,gherkin,rails_best_practices,i18n,xpath,rack-test,rack-cache,coffee-script,launchy,activemodel,capistrano-ext,awesome_print,jquery-rails,orm_adapter,multi_xml,rspec-core,debugger-linecache,responders,json,minitest-spec-rails,rack,listen,diff-lcs,httpauth,meta_search,polyamorous,actionpack,prawn,oauth2,highline,rack-ssl,railties,hike,hashie,delayed_job,activeresource,paperclip,inherited_resources,activerecord,addressable,rake,database_cleaner,arbre,sass,treetop,aws-sdk,active_utils,rspec,daemons,mime-types,rdoc,ruby-rc4,nokogiri,debugger-ruby_core_source,sexp_processor,polyglot,rspec-mocks,coffee-script-source,has_scope,jruby-pageant,omniauth-facebook,capybara,thor,Ascii85,columnize,minitest-rails,kaminari,stripe,multipart-post,execjs,code_analyzer,sass-rails,net-scp,eventmachine,omniauth,net-ssh,coffee-rails,omniauth-oauth2,hashery,httparty,campaign_monitor_subscriber,fakefs,money,ffi,jwt,tilt,sys-proctable,rack-mount,mysql2,activesupport,rspec-rails,libwebsocket,delayed_job_active_record,rails-dev-tweaks,rb-fsevent,formtastic,haml,childprocess,uglifier,bourbon,letter_opener,guard-spork,guard,minitest,devise,faraday,bcrypt-ruby,therubyracer,factory_girl,spork,builder,cucumber,arel,net-sftp,mail,selenium-webdriver,newrelic_rpm,bundler,libv8,rspec-instafail,growl,haml-rails,createsend,net-ssh-gateway,cucumber-rails,shoulda-matchers,cocaine,pdf-reader,omniauth-google-oauth2,uuidtools,debugger,connection_pool,rspec-expectations,warden,rubyzip,rails,girl_friday,actionmailer,rest-client,custom_error_message,airbrake,factory_girl_rails,hpricot,activeadmin,sprockets" />
+      <project id="truelocal2" values="rspec-mocks,hpricot,listen,mail,has_scope,tzinfo,responders,spork,multi_xml,bundler,ffi,inherited_resources,execjs,haml,daemons,nokogiri,actionpack,database_cleaner,net-sftp,rdoc,jwt,activeresource,sys-proctable,uglifier,stripe,debugger,rack-ssl,gherkin,sass-rails,authlogic,formtastic,coffee-rails,debugger-ruby_core_source,shoulda-matchers,sprockets,jquery-rails,capistrano-ext,hike,money,thor,rails_best_practices,rack,cucumber-rails,thin,highline,capistrano,coffee-script-source,mime-types,letter_opener,net-ssh,createsend,devise,rack-cache,hashery,libwebsocket,awesome_print,rubyzip,treetop,multipart-post,multi_json,fakefs,girl_friday,rspec-expectations,libv8,kaminari,ttfunk,rspec-instafail,uuidtools,connection_pool,httparty,newrelic_rpm,oauth2,activemodel,activerecord,therubyracer,coffee-script,factory_girl,rack-mount,active_utils,mysql2,activesupport,delayed_job,airbrake,columnize,rest-client,erubis,paperclip,selenium-webdriver,diff-lcs,arbre,prawn,acts-as-taggable-on,net-scp,delayed_job_active_record,rails-dev-tweaks,addressable,code_analyzer,rspec-rails,haml-rails,json,factory_girl_rails,railties,custom_error_message,rb-fsevent,omniauth-google-oauth2,fastercsv,childprocess,i18n,bcrypt-ruby,rack-test,activeadmin,progressbar,Ascii85,arel,omniauth,omniauth-oauth2,omniauth-facebook,guard-spork,eventmachine,polyglot,actionmailer,builder,guard,rspec-core,launchy,minitest,warden,campaign_monitor_subscriber,meta_search,rspec,httpauth,pdf-reader,aws-sdk,xpath,polyamorous,jruby-pageant,colored,faraday,sexp_processor,net-ssh-gateway,debugger-linecache,ruby-rc4,growl,minitest-spec-rails,cucumber,capybara,bourbon,hashie,tilt,rails,orm_adapter,sass,cocaine,rake" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="TrueLocal" values="DEFAULT" />
+      <project id="truelocal2" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="TrueLocal" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="truelocal2" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+    </group>
+    <group name="ruby-custom-scripts">
+      <project id="TrueLocal" values="loaded scripts" />
+      <project id="truelocal2" values="loaded scripts" />
+    </group>
+    <group name="ruby-sdk-version">
+      <project id="TrueLocal" values="ruby-1.9.3-p194" />
+      <project id="truelocal2" values="ruby-1.9.3-p194" />
+    </group>
+  </component>
+</application>
+
