@@ -2,57 +2,79 @@
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="vcs">
+      <project id="truelocal" values="Git" />
       <project id="TrueLocal" values="Git" />
       <project id="truelocal2" values="Git" />
     </group>
     <group name="frameworks">
+      <project id="truelocal" values="RailsFacetType" />
       <project id="TrueLocal" values="RailsFacetType" />
       <project id="truelocal2" values="RailsFacetType" />
     </group>
     <group name="jdbc-datasource">
-      <project id="TrueLocal" values="/,/,/,MySQL/5.5.27" />
+      <project id="truelocal" values="MySQL/5.5.27,MySQL/5.5.27" />
+      <project id="TrueLocal" values="MySQL/5.5.27,/,/,/" />
       <project id="truelocal2" values="MySQL/5.5.27,MySQL/5.5.27,MySQL/5.5.27,MySQL/5.5.27" />
     </group>
     <group name="ruby-project-type">
+      <project id="truelocal" values="rails 3.1" />
       <project id="TrueLocal" values="rails 3.1" />
       <project id="truelocal2" values="rails 3.1" />
     </group>
     <group name="run-configuration-type">
+      <project id="truelocal" values="RailsRunConfigurationType,RakeRunConfigurationType" />
       <project id="TrueLocal" values="RailsRunConfigurationType,RakeRunConfigurationType" />
       <project id="truelocal2" values="RailsRunConfigurationType,RakeRunConfigurationType" />
     </group>
     <group name="module type">
+      <project id="truelocal" values="RUBY_MODULE" />
       <project id="TrueLocal" values="RUBY_MODULE" />
       <project id="truelocal2" values="RUBY_MODULE" />
     </group>
+    <group name="run-configuration-type-temp">
+      <project id="truelocal" values="RSpecRunConfigurationType" />
+    </group>
     <group name="file-type">
-      <project id="TrueLocal" values="CoffeeScript,HAML,YAML,DTD,SQL,PLAIN_TEXT,DATASOURCE_STORAGE,Ruby,HTML,Cucumber,XML,Images,SCSS,CSS,RHTML,UNKNOWN,JavaScript" />
-      <project id="truelocal2" values="SQL,JavaScript,Ruby,HTML,UNKNOWN,SCSS,Images,PLAIN_TEXT,HAML,YAML,DTD,CSS,RHTML,CoffeeScript,Cucumber,XML" />
+      <project id="truelocal" values="HAML,DTD,CSS,UNKNOWN,XML,Images,HTML,RHTML,SQL,Cucumber,Ruby,PLAIN_TEXT,JavaScript,CoffeeScript,YAML,DATASOURCE_STORAGE,SCSS" />
+      <project id="TrueLocal" values="UNKNOWN,Ruby,SCSS,CSS,RHTML,HTML,PLAIN_TEXT,JavaScript,Cucumber,CoffeeScript,HAML,XML,DATASOURCE_STORAGE,Images,YAML,DTD,SQL" />
+      <project id="truelocal2" values="RHTML,YAML,CSS,XML,HAML,HTML,SQL,UNKNOWN,Ruby,PLAIN_TEXT,CoffeeScript,DTD,Cucumber,JavaScript,Images,SCSS" />
     </group>
     <group name="jdbc-driver">
+      <project id="truelocal" values="com.mysql.jdbc.Driver,com.mysql.jdbc.Driver" />
       <project id="TrueLocal" values="com.mysql.jdbc.Driver,com.mysql.jdbc.Driver,com.mysql.jdbc.Driver,com.mysql.jdbc.Driver" />
       <project id="truelocal2" values="com.mysql.jdbc.Driver,com.mysql.jdbc.Driver,com.mysql.jdbc.Driver,com.mysql.jdbc.Driver" />
     </group>
     <group name="ruby-gems-names">
-      <project id="TrueLocal" values="ttfunk,multi_json,fastercsv,progressbar,erubis,capistrano,colored,thin,authlogic,tzinfo,gherkin,rails_best_practices,i18n,xpath,rack-test,rack-cache,coffee-script,launchy,activemodel,capistrano-ext,awesome_print,jquery-rails,orm_adapter,multi_xml,rspec-core,debugger-linecache,responders,json,minitest-spec-rails,rack,listen,diff-lcs,httpauth,meta_search,polyamorous,actionpack,prawn,oauth2,highline,rack-ssl,railties,hike,hashie,delayed_job,activeresource,paperclip,inherited_resources,activerecord,addressable,rake,database_cleaner,arbre,sass,treetop,aws-sdk,active_utils,rspec,daemons,mime-types,rdoc,ruby-rc4,nokogiri,debugger-ruby_core_source,sexp_processor,polyglot,rspec-mocks,coffee-script-source,has_scope,jruby-pageant,omniauth-facebook,capybara,thor,Ascii85,columnize,minitest-rails,kaminari,stripe,multipart-post,execjs,code_analyzer,sass-rails,net-scp,eventmachine,omniauth,net-ssh,coffee-rails,omniauth-oauth2,hashery,httparty,campaign_monitor_subscriber,fakefs,money,ffi,jwt,tilt,sys-proctable,rack-mount,mysql2,activesupport,rspec-rails,libwebsocket,delayed_job_active_record,rails-dev-tweaks,rb-fsevent,formtastic,haml,childprocess,uglifier,bourbon,letter_opener,guard-spork,guard,minitest,devise,faraday,bcrypt-ruby,therubyracer,factory_girl,spork,builder,cucumber,arel,net-sftp,mail,selenium-webdriver,newrelic_rpm,bundler,libv8,rspec-instafail,growl,haml-rails,createsend,net-ssh-gateway,cucumber-rails,shoulda-matchers,cocaine,pdf-reader,omniauth-google-oauth2,uuidtools,debugger,connection_pool,rspec-expectations,warden,rubyzip,rails,girl_friday,actionmailer,rest-client,custom_error_message,airbrake,factory_girl_rails,hpricot,activeadmin,sprockets" />
-      <project id="truelocal2" values="rspec-mocks,hpricot,listen,mail,has_scope,tzinfo,responders,spork,multi_xml,bundler,ffi,inherited_resources,execjs,haml,daemons,nokogiri,actionpack,database_cleaner,net-sftp,rdoc,jwt,activeresource,sys-proctable,uglifier,stripe,debugger,rack-ssl,gherkin,sass-rails,authlogic,formtastic,coffee-rails,debugger-ruby_core_source,shoulda-matchers,sprockets,jquery-rails,capistrano-ext,hike,money,thor,rails_best_practices,rack,cucumber-rails,thin,highline,capistrano,coffee-script-source,mime-types,letter_opener,net-ssh,createsend,devise,rack-cache,hashery,libwebsocket,awesome_print,rubyzip,treetop,multipart-post,multi_json,fakefs,girl_friday,rspec-expectations,libv8,kaminari,ttfunk,rspec-instafail,uuidtools,connection_pool,httparty,newrelic_rpm,oauth2,activemodel,activerecord,therubyracer,coffee-script,factory_girl,rack-mount,active_utils,mysql2,activesupport,delayed_job,airbrake,columnize,rest-client,erubis,paperclip,selenium-webdriver,diff-lcs,arbre,prawn,acts-as-taggable-on,net-scp,delayed_job_active_record,rails-dev-tweaks,addressable,code_analyzer,rspec-rails,haml-rails,json,factory_girl_rails,railties,custom_error_message,rb-fsevent,omniauth-google-oauth2,fastercsv,childprocess,i18n,bcrypt-ruby,rack-test,activeadmin,progressbar,Ascii85,arel,omniauth,omniauth-oauth2,omniauth-facebook,guard-spork,eventmachine,polyglot,actionmailer,builder,guard,rspec-core,launchy,minitest,warden,campaign_monitor_subscriber,meta_search,rspec,httpauth,pdf-reader,aws-sdk,xpath,polyamorous,jruby-pageant,colored,faraday,sexp_processor,net-ssh-gateway,debugger-linecache,ruby-rc4,growl,minitest-spec-rails,cucumber,capybara,bourbon,hashie,tilt,rails,orm_adapter,sass,cocaine,rake" />
+      <project id="truelocal" values="kaminari,thor,xpath,net-sftp,gherkin,database_cleaner,acts-as-taggable-on,thin,aws-sdk,bundler,debugger-linecache,capistrano,libv8,omniauth-google-oauth2,mime-types,guard-spork,cocaine,pdf-reader,rspec-rails,rails-dev-tweaks,money,awesome_print,bourbon,haml,uglifier,code_analyzer,rack-cache,coffee-script,therubyracer,has_scope,campaign_monitor_subscriber,rack-mount,net-ssh-gateway,haml-rails,omniauth-oauth2,arbre,erubis,formtastic,rspec-expectations,guard,activemodel,sass,sprockets,createsend,faraday,rdoc,railties,inherited_resources,jquery-rails,nokogiri,spork,progressbar,paperclip,multi_xml,sexp_processor,eventmachine,listen,activesupport,httpauth,authlogic,bcrypt-ruby,libwebsocket,meta_search,activeresource,coffee-script-source,rack,childprocess,tzinfo,rspec-core,girl_friday,net-scp,rubyzip,actionmailer,highline,letter_opener,factory_girl,fakefs,mail,responders,rspec-instafail,delayed_job_active_record,mysql2,multipart-post,httparty,warden,hashery,daemons,cucumber,rest-client,activerecord,actionpack,active_utils,net-ssh,jruby-pageant,sys-proctable,ffi,debugger-ruby_core_source,omniauth-facebook,rack-ssl,rails,sass-rails,tilt,rb-fsevent,multi_json,launchy,json,rails_best_practices,devise,custom_error_message,colored,growl,execjs,Ascii85,factory_girl_rails,builder,uuidtools,omniauth,hike,diff-lcs,fastercsv,i18n,selenium-webdriver,columnize,coffee-rails,arel,minitest-spec-rails,rack-test,delayed_job,ruby-rc4,airbrake,debugger,polyglot,connection_pool,prawn,rake,capybara,polyamorous,treetop,minitest,addressable,stripe,rspec-mocks,shoulda-matchers,orm_adapter,oauth2,hashie,ttfunk,cucumber-rails,activeadmin,capistrano-ext,newrelic_rpm,jwt,hpricot,rspec" />
+      <project id="TrueLocal" values="ttfunk,newrelic_rpm,rspec-rails,custom_error_message,airbrake,cucumber,httpauth,fastercsv,pdf-reader,libwebsocket,nokogiri,omniauth-google-oauth2,progressbar,uglifier,arbre,multi_xml,bcrypt-ruby,minitest-rails,actionpack,guard,minitest,rspec-core,faraday,factory_girl_rails,money,sys-proctable,tzinfo,erubis,httparty,polyglot,mime-types,colored,activeresource,oauth2,builder,childprocess,coffee-rails,net-scp,polyamorous,orm_adapter,hpricot,capistrano-ext,rspec,rack-cache,rubyzip,rack-test,aws-sdk,campaign_monitor_subscriber,rails,rspec-mocks,connection_pool,rest-client,growl,factory_girl,mysql2,spork,uuidtools,thor,debugger-linecache,active_utils,tilt,rb-fsevent,activeadmin,railties,rails_best_practices,net-ssh,json,capistrano,guard-spork,multi_json,hashie,omniauth,launchy,debugger,ffi,arel,highline,stripe,database_cleaner,paperclip,prawn,addressable,bundler,responders,kaminari,omniauth-facebook,omniauth-oauth2,warden,shoulda-matchers,diff-lcs,delayed_job,createsend,delayed_job_active_record,net-sftp,selenium-webdriver,bourbon,xpath,activerecord,cocaine,sass-rails,debugger-ruby_core_source,hike,rack,columnize,activemodel,jquery-rails,haml,sass,net-ssh-gateway,jwt,multipart-post,devise,capybara,letter_opener,meta_search,haml-rails,inherited_resources,therubyracer,sexp_processor,authlogic,jruby-pageant,mail,girl_friday,coffee-script-source,ruby-rc4,rack-ssl,hashery,rspec-instafail,execjs,eventmachine,fakefs,activesupport,listen,formtastic,libv8,rack-mount,Ascii85,treetop,rails-dev-tweaks,code_analyzer,rdoc,rspec-expectations,coffee-script,cucumber-rails,gherkin,thin,sprockets,awesome_print,daemons,has_scope,i18n,minitest-spec-rails,actionmailer,rake" />
+      <project id="truelocal2" values="debugger,net-ssh-gateway,money,cucumber,oauth2,mail,letter_opener,libv8,debugger-ruby_core_source,sass,addressable,guard,hashery,growl,campaign_monitor_subscriber,multipart-post,rdoc,capistrano-ext,omniauth-oauth2,libwebsocket,rake,execjs,omniauth,bcrypt-ruby,cocaine,rack-cache,diff-lcs,haml-rails,uglifier,hashie,girl_friday,Ascii85,net-scp,tilt,launchy,arel,custom_error_message,arbre,treetop,inherited_resources,devise,code_analyzer,net-ssh,rspec-expectations,formtastic,sexp_processor,minitest-spec-rails,rack-ssl,active_utils,warden,delayed_job_active_record,sprockets,prawn,coffee-script-source,rack-mount,activemodel,orm_adapter,paperclip,capistrano,faraday,railties,progressbar,debugger-linecache,httpauth,hpricot,acts-as-taggable-on,factory_girl_rails,guard-spork,coffee-script,delayed_job,cucumber-rails,actionmailer,jwt,rack-test,jquery-rails,rails-dev-tweaks,capybara,bundler,mysql2,aws-sdk,has_scope,ruby-rc4,ffi,haml,columnize,minitest,highline,airbrake,jruby-pageant,rails_best_practices,kaminari,sys-proctable,ttfunk,listen,connection_pool,createsend,uuidtools,rspec-instafail,childprocess,authlogic,rspec-core,stripe,polyamorous,rspec-mocks,spork,eventmachine,activeresource,rubyzip,json,rack,awesome_print,sass-rails,activesupport,multi_json,fakefs,net-sftp,rails,tzinfo,omniauth-google-oauth2,hike,multi_xml,actionpack,rb-fsevent,bourbon,mime-types,rspec-rails,rest-client,therubyracer,builder,thor,responders,polyglot,erubis,gherkin,nokogiri,meta_search,pdf-reader,selenium-webdriver,httparty,shoulda-matchers,colored,omniauth-facebook,database_cleaner,thin,xpath,activeadmin,i18n,fastercsv,newrelic_rpm,factory_girl,coffee-rails,rspec,daemons,activerecord" />
     </group>
     <group name="JavaScript versions">
+      <project id="truelocal" values="DEFAULT" />
       <project id="TrueLocal" values="DEFAULT" />
       <project id="truelocal2" values="DEFAULT" />
     </group>
     <group name="javaScript Scope Usages">
+      <project id="truelocal" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
       <project id="TrueLocal" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
       <project id="truelocal2" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
     </group>
     <group name="ruby-custom-scripts">
+      <project id="truelocal" values="loaded scripts" />
       <project id="TrueLocal" values="loaded scripts" />
       <project id="truelocal2" values="loaded scripts" />
     </group>
     <group name="ruby-sdk-version">
+      <project id="truelocal" values="ruby-1.9.3-p194" />
       <project id="TrueLocal" values="ruby-1.9.3-p194" />
       <project id="truelocal2" values="ruby-1.9.3-p194" />
     </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="execute.RSpecRunConfigurationType.Run" count="1" />
+      <entry feature="execute.RailsRunConfigurationType.Run" count="1" />
+    </counts>
   </component>
 </application>
 

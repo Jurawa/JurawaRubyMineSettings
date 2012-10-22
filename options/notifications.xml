@@ -10,6 +10,7 @@
     <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
     <notification groupId="RVM Support" />
     <notification groupId="IDE Fatal Errors" displayType="NONE" />
+    <notification groupId="Test Runner" displayType="NONE" />
     <notification groupId="Rails Data Sources Detector" />
     <notification groupId="Database" displayType="TOOL_WINDOW" />
     <notification groupId="Gem Manager" />
