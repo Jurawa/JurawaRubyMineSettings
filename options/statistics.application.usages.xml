@@ -74,6 +74,7 @@
     <counts>
       <entry feature="execute.RSpecRunConfigurationType.Run" count="1" />
       <entry feature="execute.RailsRunConfigurationType.Run" count="1" />
+      <entry feature="execute.RubyRunConfigurationType.Run" count="1" />
     </counts>
   </component>
 </application>

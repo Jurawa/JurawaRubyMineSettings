@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <versions>
-  <component name="ChangeListManager" version="1350929657063" />
+  <component name="ChangeListManager" version="1350933600829" />
   <component name="ChangesViewManager" version="1350929657064" />
   <component name="CreatePatchCommitExecutor" version="1350929657066" />
   <component name="DaemonCodeAnalyzer" version="1350929657066" />
   <component name="DataSourceManagerImpl" version="1350929657066" />
   <component name="DatabaseView" version="1349800478039" />
   <component name="Encoding" version="1350929657068" />
-  <component name="FileEditorManager" version="1350930050725" />
-  <component name="FindManager" version="1350927463574" />
+  <component name="FileEditorManager" version="1350933600832" />
+  <component name="FindManager" version="1350932225086" />
   <component name="Git.Push.Settings" version="1350066918931" />
   <component name="Git.Settings" version="1350929657217" />
   <component name="GitLogSettings" version="1350929657217" />
-  <component name="IdeDocumentHistory" version="1350929657218" />
+  <component name="IdeDocumentHistory" version="1350933125743" />
   <component name="ProjectFrameBounds" version="1350929657387" />
   <component name="ProjectInspectionProfilesVisibleTreeState" version="1350928394422" />
   <component name="ProjectLevelVcsManager" version="1350929657387" />
@@ -20,20 +20,20 @@
   <component name="ProjectReloadState" version="1350929657388" />
   <component name="ProjectResources" version="1350930050727" />
   <component name="ProjectRootManager" version="1350929657388" />
-  <component name="ProjectView" version="1350929657390" />
-  <component name="PropertiesComponent" version="1350930005573" />
-  <component name="RecentsManager" version="1350863584784" />
-  <component name="RunManager" version="1350929657564" />
+  <component name="ProjectView" version="1350932345383" />
+  <component name="PropertiesComponent" version="1350931098395" />
+  <component name="RecentsManager" version="1350932005042" />
+  <component name="RunManager" version="1350932345394" />
   <component name="ShelveChangesManager" version="1350929657564" />
   <component name="StructureViewFactory" version="1350929657588" />
   <component name="SvnConfiguration" version="1350929657588" />
-  <component name="TaskManager" version="1350929657608" />
+  <component name="TaskManager" version="1350933485504" />
   <component name="TodoView" version="1350405915616" />
-  <component name="ToolWindowManager" version="1350930050745" />
+  <component name="ToolWindowManager" version="1350933600855" />
   <component name="VcsContentAnnotationSettings" version="1350929657614" />
   <component name="VcsDirectoryMappings" version="1350929657614" />
-  <component name="VcsManagerConfiguration" version="1350929657615" />
+  <component name="VcsManagerConfiguration" version="1350933485505" />
   <component name="XDebuggerManager" version="1350929657617" />
-  <component name="editorHistoryManager" version="1350930050748" />
+  <component name="editorHistoryManager" version="1350933600864" />
 </versions>
 

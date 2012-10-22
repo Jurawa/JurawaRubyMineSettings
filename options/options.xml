@@ -33,23 +33,23 @@
     <location key="git4idea.rebase.GitRebaseDialog.0.22.1280.774" x="374" y="250" />
     <location key="git4idea.branch.GitSmartOperationDialog.0.22.1920.1054" x="692" y="276" />
     <location key="CommitChangelistDialog.0.22.1280.774" x="183" y="22" />
-    <location key="ProcessPopupWindow" x="891" y="502" />
+    <location key="ProcessPopupWindow" x="891" y="466" />
     <location key="com.intellij.ide.passwordSafe.impl.providers.masterKey.ResetPasswordDialog.0.22.1280.774" x="464" y="330" />
     <location key="git4idea.branch.GitSmartOperationDialog.0.22.1280.774" x="372" y="136" />
     <location key="Git.Log.Tree.Goto.0.22.1280.774" x="476" y="636" />
     <size key="GridCell.Tab.1.bottom.0.22.1280.774" width="1234" height="200" />
     <size key="DiffWindow.0.22.1920.1054" width="1720" height="854" />
     <size key="VCS.ChangelistChooser.0.22.1280.774" width="546" height="331" />
-    <size key="GridCell.Tab.0.center.0.22.1280.774" width="1234" height="200" />
-    <size key="GridCell.Tab.0.left.0.22.1280.774" width="1234" height="200" />
+    <size key="GridCell.Tab.0.center.0.22.1280.774" width="612" height="200" />
+    <size key="GridCell.Tab.0.left.0.22.1280.774" width="612" height="200" />
     <size key="GridCell.Tab.1.center.0.22.1280.774" width="1234" height="200" />
     <size key="DiffWindow.0.22.1280.774" width="1280" height="774" />
     <size key="DiffWindow" width="1080" height="574" />
     <size key="OptionsEditor.0.22.1920.1054" width="1224" height="800" />
     <size key="CommitChangelistDialog.0.22.1280.774" width="640" height="774" />
     <size key="ProcessPopupWindow" width="384" height="258" />
-    <size key="GridCell.Tab.0.bottom.0.22.1280.774" width="1234" height="200" />
-    <size key="GridCell.Tab.0.right.0.22.1280.774" width="1234" height="200" />
+    <size key="GridCell.Tab.0.bottom.0.22.1280.774" width="612" height="200" />
+    <size key="GridCell.Tab.0.right.0.22.1280.774" width="612" height="200" />
     <size key="GridCell.Tab.1.right.0.22.1280.774" width="1234" height="200" />
     <size key="Git.Log.Tree.Goto.0.22.1280.774" width="374" height="63" />
     <size key="com.intellij.history.integration.ui.views.FileHistoryDialog" width="1080" height="574" />

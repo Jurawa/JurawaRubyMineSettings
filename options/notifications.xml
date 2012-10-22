@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="NotificationConfiguration">
+    <notification groupId="Common Version Control Messages" displayType="TOOL_WINDOW" />
     <notification groupId="External Executable Critical Failures" displayType="TOOL_WINDOW" />
     <notification groupId="JavaScript Library Management" displayType="STICKY_BALLOON" />
     <notification groupId="FindInPath" displayType="TOOL_WINDOW" shouldLog="false" />
@@ -14,7 +15,6 @@
     <notification groupId="Rails Data Sources Detector" />
     <notification groupId="Database" displayType="TOOL_WINDOW" />
     <notification groupId="Gem Manager" />
-    <notification groupId="Common Version Control Messages" displayType="TOOL_WINDOW" />
     <toolWindow group="Git Messages" />
     <toolWindow group="External Executable Critical Failures" />
     <toolWindow group="FindInPath" />
